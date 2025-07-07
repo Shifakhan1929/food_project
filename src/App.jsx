@@ -12,7 +12,7 @@ function App() {
         <h1 className="text-3xl font-bold text-center text-pink-800">Sagar Gaire</h1>
         <p className="text-center text-gray-500 mt-2">Welcome to our tasty world!</p>
       </header>
-      <main className="p-20">
+      <main className="p-10">
         <MenuList />
       </main>
     </div>
