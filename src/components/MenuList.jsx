@@ -24,7 +24,7 @@ function MenuList() {
   if (loading) return <p className="text-center text-pink-600">Loading menu...</p>;
 
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+    <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
       {menuItems.length === 0 ? (
         <p className="text-center text-red-500">No menu items found.</p>
       ) : (

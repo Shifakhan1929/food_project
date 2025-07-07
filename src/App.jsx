@@ -7,12 +7,12 @@ import MenuList from "./components/MenuList";
 
 function App() {
   return (
-    <div className="min-h-screen bg-gray-50">
-      <header className="bg-pink-300 shadow p-6">
-        <h1 className="text-3xl font-bold text-center text-pink-600">Sagar Gaire</h1>
+    <div className="min-h-screen bg-pink-300">
+      <header className="bg-pink-400 shadow p-6">
+        <h1 className="text-3xl font-bold text-center text-pink-800">Sagar Gaire</h1>
         <p className="text-center text-gray-500 mt-2">Welcome to our tasty world!</p>
       </header>
-      <main className="p-4">
+      <main className="p-20">
         <MenuList />
       </main>
     </div>
